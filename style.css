@@ -141,10 +141,34 @@ body {
   }
 }
 
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem;
+  color: var(--color-purple);
+  background-color: var(--color-light-pink);
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--color-grayish-purple);
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 645px) {
   
   .faq-card-container {
     padding: 24px;
+    border-radius: 0.5rem;
   }
 
   .faq-card-container h1 {
