@@ -47,6 +47,9 @@ Mobile
 
 - How to build a responsive layout using vanilla **HTML5**, **CSS3**
 - Using flex-box for putting various elements together
+- Using **CSS3 animation**
+- Using **CSS3 variables**
+- How to handle the click event and manipulate style from **JavaScritp**
 
 ## Author
 
